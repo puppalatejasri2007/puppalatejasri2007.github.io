@@ -30,3 +30,12 @@ footer{padding:25px 6vw;display:flex;justify-content:space-between;gap:20px;colo
 .reveal{opacity:0;transform:translateY(25px);transition:opacity .8s ease,transform .8s ease}.reveal.visible{opacity:1;transform:translateY(0)}
 @media(max-width:900px){.menu-button{display:block}nav{display:none;position:absolute;top:82px;left:0;right:0;padding:25px 6vw;background:var(--cream);border-bottom:1px solid var(--line);flex-direction:column}nav.open{display:flex}.hero{grid-template-columns:1fr}.about-grid,.skills-grid{grid-template-columns:1fr;gap:50px}.research-grid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}.education-grid{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:12px}}
 @media(max-width:600px){.header{height:70px}nav{top:70px}.hero{padding:70px 7vw}.hero h1{font-size:3.2rem}.hero-visual{min-height:360px}.orb{width:260px;height:260px}.floating-card{min-width:125px;padding:12px}.section{padding:85px 7vw}.research-grid{grid-template-columns:1fr}.research-card{border-left:1px solid var(--line)}.stats{grid-template-columns:1fr 1fr}.stats strong{font-size:1.8rem}.skill-row{grid-template-columns:1fr;gap:7px}.project{grid-template-columns:1fr;padding:30px}.project-number{font-size:2.8rem}.interests{grid-template-columns:1fr}.contact{padding:100px 7vw}footer{flex-direction:column}}
+
+.social-links{display:flex;justify-content:center;gap:12px;margin-top:25px}
+.social-links a{border:1px solid #55514b;padding:10px 16px;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;transition:.25s}
+.social-links a:hover{background:var(--cream);color:var(--black)}
+.focus-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:10vw}
+.focus-grid h2{font-family:"Playfair Display",serif;font-size:clamp(2.5rem,4vw,4.5rem);line-height:1.05;margin-top:10px}
+.focus-copy{border-top:1px solid var(--line)}
+.focus-copy p{padding:18px 0;border-bottom:1px solid var(--line);color:var(--gray)}
+@media(max-width:900px){.focus-grid{grid-template-columns:1fr;gap:45px}}
