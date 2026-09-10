@@ -3,195 +3,205 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Puppala Tejasri - Electrical and Electronics Engineering student portfolio">
-  <title>Puppala Tejasri | Portfolio</title>
+  <meta name="description" content="Puppala Tejasri — Electrical and Electronics Engineering student portfolio.">
+  <title>Puppala Tejasri — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
-  <a href="#home" class="logo">PT<span>.</span></a>
-  <button class="menu-button" id="menuButton" aria-label="Open menu">☰</button>
-  <nav id="navigation">
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+  <header class="site-header">
+    <a class="wordmark" href="#home">TEJASRI <span>PORTFOLIO</span></a>
+    <button class="menu" aria-label="Open navigation">☰</button>
+    <nav id="navLinks">
+      <a href="#about">About</a><a href="#foundations">Foundations</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<main>
-<section class="hero" id="home">
-  <div class="hero-content reveal">
-    <p class="eyebrow">ELECTRICAL & ELECTRONICS ENGINEERING · NIT NAGALAND</p>
-    <h1>Building at the intersection of <em>intelligence</em> and engineering.</h1>
-    <p class="hero-description">I'm Puppala Tejasri, a B.Tech student exploring Artificial Intelligence, Computer Vision, Deep Learning, Embedded Systems and IoT-based automation.</p>
-    <div class="buttons">
-      <a href="#projects" class="button primary">Explore My Work ↗</a>
-      <a href="#contact" class="button secondary">Contact Me</a>
-    </div>
-  </div>
-  <div class="hero-visual reveal">
-    <div class="orb"></div>
-    <div class="floating-card card-one"><small>01</small><strong>AI</strong><span>Computer Vision</span></div>
-    <div class="floating-card card-two"><small>02</small><strong>EEE</strong><span>Embedded Systems</span></div>
-    <div class="floating-card card-three"><small>03</small><strong>IoT</strong><span>Automation</span></div>
-  </div>
-</section>
-
-<div class="ticker">
-  <span>ARTIFICIAL INTELLIGENCE</span><b>✦</b><span>COMPUTER VISION</span><b>✦</b>
-  <span>EMBEDDED SYSTEMS</span><b>✦</b><span>RESEARCH</span><b>✦</b><span>IoT AUTOMATION</span>
-</div>
-
-<section class="section" id="about">
-  <div class="section-label">01 / ABOUT</div>
-  <div class="about-grid">
-    <div class="reveal">
-      <p class="section-kicker">CURIOUS BY NATURE. ENGINEERED TO BUILD.</p>
-      <h2>More than a student — <em>a learner who likes turning ideas into systems.</em></h2>
-    </div>
-    <div class="about-text reveal">
-      <p>I am a second-year Electrical and Electronics Engineering student at the National Institute of Technology Nagaland.</p>
-      <p>My interests lie at the intersection of hardware and intelligent software. I am particularly interested in Artificial Intelligence, Computer Vision, Deep Learning, Embedded Systems and IoT-based automation.</p>
-      <p>I enjoy understanding how systems work, experimenting with new technologies and connecting software with real-world hardware to create practical solutions.</p>
-      <p>My current work includes an automatic door opening and closing system using face identification, combining computer vision, CNN-based feature extraction and embedded hardware.</p>
-      <p>Beyond technology, I have developed leadership and communication experience through my role as Class Representative for Electrical Engineering.</p>
-    </div>
-  </div>
-  <div class="stats reveal">
-    <div><strong>9.05</strong><span>Current CGPA</span></div>
-    <div><strong>2024–28</strong><span>B.Tech</span></div>
-    <div><strong>4 Wks</strong><span>ERS Internship</span></div>
-    <div><strong>3</strong><span>Languages</span></div>
-  </div>
-</section>
-
-<section class="section" id="research">
-  <div class="section-label">02 / RESEARCH</div>
-  <div class="section-heading reveal">
-    <p class="section-kicker">AREAS I WANT TO EXPLORE DEEPLY</p>
-    <h2>Research interests</h2>
-  </div>
-  <div class="research-grid">
-    <article class="research-card reveal"><span>01</span><h3>Artificial<br>Intelligence</h3><p>Exploring intelligent methods that can make systems more adaptive and useful.</p></article>
-    <article class="research-card reveal"><span>02</span><h3>Computer<br>Vision</h3><p>Understanding images, faces and visual information using machine learning.</p></article>
-    <article class="research-card reveal"><span>03</span><h3>Deep<br>Learning</h3><p>Exploring CNN architectures, feature extraction and recognition systems.</p></article>
-    <article class="research-card reveal"><span>04</span><h3>Embedded<br>Systems</h3><p>Connecting intelligent software with real-world hardware and sensors.</p></article>
-    <article class="research-card reveal"><span>05</span><h3>IoT<br>Automation</h3><p>Designing connected systems that sense, decide and respond automatically.</p></article>
-  </div>
-</section>
-
-<section class="section" id="skills">
-  <div class="section-label">03 / SKILLS</div>
-  <div class="skills-grid">
-    <div class="reveal">
-      <p class="section-kicker">MY TOOLKIT</p>
-      <h2>Technical skills with a hardware-to-software mindset.</h2>
-    </div>
-    <div class="skill-list reveal">
-      <div class="skill-row"><span>Programming</span><strong>Python · C · C++ · MATLAB</strong></div>
-      <div class="skill-row"><span>AI / Vision</span><strong>CNN Models · VGG16 · ResNet · Face Recognition · OpenCV</strong></div>
-      <div class="skill-row"><span>Libraries</span><strong>NumPy · OpenCV</strong></div>
-      <div class="skill-row"><span>Embedded</span><strong>ESP32-CAM · PIR Motion Sensor · Basic IoT Systems</strong></div>
-      <div class="skill-row"><span>Professional</span><strong>Leadership · Teamwork · Communication · Problem Solving · Analytical Thinking</strong></div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="projects">
-  <div class="section-label">04 / PROJECTS</div>
-  <div class="project reveal">
-    <div class="project-number">01</div>
-    <div>
-      <p class="section-kicker">ONGOING PROJECT</p>
-      <h2>Automatic Door Opening & Closing System <em>using Face Identification</em></h2>
-      <p class="project-description">An intelligent automation system designed to identify authorized persons and control a door in real time. The project combines computer vision, CNN-based feature extraction and embedded hardware.</p>
-      <div class="tags">
-        <span>Python</span><span>OpenCV</span><span>CNN</span><span>VGG16</span><span>ResNet</span><span>ESP32-CAM</span><span>Face Recognition</span>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="kicker">TEJASRI · ELECTRICAL &amp; ELECTRONICS ENGINEERING</p>
+        <h1>Where ideas meet<br><em>engineering.</em></h1>
+        <p class="hero-role">B.Tech student exploring electrical systems, intelligent technology and hands-on problem solving.</p>
+        <p class="intro">I am developing a strong engineering foundation by connecting core electrical concepts with programming, embedded systems, computer vision and simulation. I enjoy learning through projects, practical experiments and experiences that turn concepts into working ideas.</p>
+        <p class="intro">My current direction is to grow into an engineer who can understand a system from its fundamentals, work confidently with modern tools and contribute thoughtfully to real-world technical projects.</p>
+        <div class="hero-meta"><span>National Institute of Technology Nagaland</span><span>2024 — 2028</span></div>
+        <div class="hero-links"><a href="#projects">Selected work ↓</a><a href="#about">More about me ↓</a></div>
       </div>
-    </div>
-  </div>
-</section>
+      <div class="hero-number">01</div>
+    </section>
 
-<section class="section" id="experience">
-  <div class="section-label">05 / EXPERIENCE</div>
-  <div class="timeline">
-    <article class="timeline-item reveal">
-      <div class="timeline-date">4 WEEKS</div>
-      <div><p class="section-kicker">INTERNSHIP · RASHTRIYA ISPAT NIGAM LIMITED</p><h3>Electrical Repair Shop (ERS) — Vizag Steel Plant</h3><p>Studied testing and maintenance procedures for industrial electrical motors. Observed insulation resistance testing, motor performance evaluation, troubleshooting and repair techniques.</p></div>
-    </article>
-    <article class="timeline-item reveal">
-      <div class="timeline-date">WORKSHOP</div>
-      <div><p class="section-kicker">ANRF FUNDED WORKSHOP</p><h3>Next Generation Technology for Energy Sustainability & Climate Resilience</h3><p>Participated in a technical workshop focused on emerging technologies for sustainable energy systems and climate-resilient technologies.</p></div>
-    </article>
-    <article class="timeline-item reveal">
-      <div class="timeline-date">LEADERSHIP</div>
-      <div><p class="section-kicker">NIT NAGALAND · FIRST 3 SEMESTERS</p><h3>Former Class Representative — Electrical Engineering</h3><p>Served as Class Representative for the Electrical Engineering class during my first three semesters, helping coordinate student-faculty communication and supporting academic activities.</p></div>
-    </article>
-  </div>
-</section>
+    <section class="editorial-section" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="two-col">
+        <h2>Learning by<br><em>understanding.</em></h2>
+        <div class="body-copy">
+          <p>I’m Puppala Tejasri, a B.Tech student in Electrical and Electronics Engineering at the National Institute of Technology Nagaland. I enjoy exploring the connection between electrical systems, programming and intelligent technology.</p>
+          <p>My learning has gradually moved from classroom fundamentals into practical work with Python, C/C++, computer vision, embedded systems, MATLAB and Simulink. I like taking an idea apart, understanding how it works and then building a small working system around it.</p>
+          <p>Alongside technical learning, I value communication, teamwork and taking responsibility in group settings. My goal is to keep building a strong engineering foundation while exploring technologies that solve useful real-world problems.</p>
+        </div>
+      </div>
+    </section>
 
-<section class="section">
-  <div class="section-label">06 / EDUCATION</div>
-  <div class="education-grid">
-    <div class="education-card current reveal"><span>2024 — 2028</span><h3>Bachelor of Technology</h3><p>Electrical & Electronics Engineering</p><strong>National Institute of Technology Nagaland</strong><b>CGPA · 9.05</b></div>
-    <div class="education-card reveal"><span>2022 — 2024</span><h3>Intermediate</h3><p>T.S.W.R.S / J.C Dharmaram-B</p></div>
-    <div class="education-card reveal"><span>2022</span><h3>Secondary School</h3><p>T.S.W.R.S / J.C Dharmaram-B</p></div>
-  </div>
-</section>
+    <section class="editorial-section education" id="education">
+      <div class="section-label">02 / EDUCATION</div>
+      <div class="two-col">
+        <h2>Where the<br><em>foundation began.</em></h2>
+        <div class="education-list">
+          <article class="education-item featured">
+            <div class="edu-year">2024 — 2028</div>
+            <div><p class="small-label">BACHELOR OF TECHNOLOGY</p><h3>Electrical &amp; Electronics Engineering</h3><p>National Institute of Technology Nagaland</p><strong>9.05 CGPA</strong></div>
+          </article>
+          <article class="education-item">
+            <div class="edu-year">2022 — 2024</div>
+            <div><p class="small-label">INTERMEDIATE</p><h3>T.S.W.R.S J/C Dharmaram-B</h3><p>Intermediate education with a foundation in mathematics and science.</p><strong>9.6 CGPA</strong></div>
+          </article>
+          <article class="education-item">
+            <div class="edu-year">2022</div>
+            <div><p class="small-label">SECONDARY SCHOOL</p><h3>T.S.W.R.S J/C Dharmaram-B</h3><p>Completed secondary school education.</p><strong>9.7 CGPA</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<section class="section">
-  <div class="section-label">07 / CURRENT FOCUS</div>
-  <div class="focus-grid">
-    <div class="reveal"><p class="section-kicker">WHAT I'M BUILDING TOWARD</p><h2>Learning by connecting engineering fundamentals with intelligent technology.</h2></div>
-    <div class="focus-copy reveal">
-      <p>My current focus is strengthening my foundations in programming, computer vision, deep learning and embedded systems while gaining more hands-on experience with real-world engineering problems.</p>
-      <p>I am particularly interested in projects that combine sensing, computation and automation to create practical systems.</p>
-      <p>As I continue through my B.Tech, I aim to build stronger research skills, contribute to meaningful technical projects and learn from opportunities that expose me to new engineering challenges.</p>
-    </div>
-  </div>
-</section>
+    <section class="editorial-section" id="foundations">
+      <div class="section-label">03 / ENGINEERING FOUNDATIONS</div>
+      <h2 class="section-heading">Core areas I am<br><em>building on.</em></h2>
+      <div class="numbered-list">
+        <article><span>01</span><div><h3>Systems &amp; Control</h3><p>Control Systems and feedback-based engineering concepts.</p></div></article>
+        <article><span>02</span><div><h3>Embedded Systems</h3><p>Microprocessors, microcontrollers and practical hardware interfacing.</p></div></article>
+        <article><span>03</span><div><h3>Power Engineering</h3><p>Power systems and the analysis of electrical power networks.</p></div></article>
+        <article><span>04</span><div><h3>Electronics</h3><p>Power electronics, electronic devices and circuit fundamentals.</p></div></article>
+        <article><span>05</span><div><h3>Circuits &amp; Networks</h3><p>Network analysis and understanding electrical circuit behaviour.</p></div></article>
+        <article><span>06</span><div><h3>Digital Systems</h3><p>Digital logic, system design and foundational digital electronics.</p></div></article>
+        <article><span>07</span><div><h3>Measurements</h3><p>Measurements, instrumentation and practical electrical testing.</p></div></article>
+      </div>
+    </section>
 
-<section class="section">
-  <div class="section-label">07 / BEYOND TECH</div>
-  <div class="interests">
-    <div class="interest-group reveal"><span>Leadership</span><span>Teamwork</span><span>Critical Thinking</span><span>Communication</span></div>
-    <div class="interest-group reveal"><span>Badminton</span><span>Cricket</span><span>Chemistry Research</span><span>Robotics</span></div>
-  </div>
-</section>
+    <section class="editorial-section lab" id="skills">
+      <div class="section-label">04 / SKILLS &amp; LABORATORY LEARNING</div>
+      <div class="two-col lab-head">
+        <h2>Learning by<br><em>doing.</em></h2>
+        <p class="body-copy">A mix of programming, computer vision, embedded work and engineering tools developed through coursework, projects and practical exposure.</p>
+      </div>
+      <div class="lab-list">
+        <div><h3>Programming</h3><p>Python · C · C++</p></div>
+        <div><h3>AI &amp; Computer Vision</h3><p>OpenCV · Face Recognition · CNN Models · Feature Extraction · NumPy</p></div>
+        <div><h3>Engineering Tools</h3><p>MATLAB · Simulink · Circuit analysis · Measurements &amp; Instrumentation</p></div>
+        <div><h3>Embedded &amp; IoT</h3><p>ESP32-CAM · Sensors · Embedded Systems · Basic IoT Automation</p></div>
+        <div><h3>Professional</h3><p>Public Speaking · Communication · Leadership · Teamwork · Problem Solving · Analytical Thinking</p></div>
+      </div>
+    </section>
 
-<section class="contact" id="contact">
-  <div class="contact-inner reveal">
-    <p class="section-kicker">LET'S CONNECT</p>
-    <h2>Have an idea, research opportunity, or project?</h2>
-    <p>I'd love to learn, collaborate and build something meaningful.</p>
-    <form id="contactForm">
-      <input type="text" id="name" placeholder="Your Name" required>
-      <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit" class="button primary">Send Message ↗</button>
-    </form>
-    <p id="formMessage" class="form-message"></p>
-    <a class="email" href="mailto:puppalatejasri2007@gmail.com">puppalatejasri2007@gmail.com ↗</a>
-    <div class="contact-details"><a href="tel:+917013365526">+91 70133 65526</a><span>·</span><span>India</span></div><div class="social-links">
-      <a href="https://github.com/puppalatejasri2007" target="_blank" rel="noopener">GitHub ↗</a>
-      <a href="https://www.linkedin.com/in/tejasri-puppala-a9495b331/" target="_blank" rel="noopener">LinkedIn ↗</a>
-    </div>
-    
-  </div>
-</section>
-</main>
+    <section class="dark-work" id="projects">
+      <div class="section-label light">05 / SELECTED WORK</div>
+      <div class="work-heading"><h2>Building beyond<br><em>the classroom.</em></h2><p>One ongoing team project bringing together computer vision, embedded hardware and automation.</p></div>
+      <article class="work-card">
+        <div class="work-visual">
+          <div class="visual-label">TEAM PROJECT · ONGOING</div>
+          <div class="door-illustration"><div class="door-panel"><span></span><b>AUTHORIZED</b></div></div>
+          <div class="visual-caption">FACE IDENTIFICATION<br><span>→ AUTOMATED ACCESS</span></div>
+        </div>
+        <div class="work-content">
+          <p class="small-label">01 / AUTOMATION</p>
+          <h3>Automatic Door Opening &amp; Closing System using Face Identification</h3>
+          <p>Developing a team-based automated door system that identifies authorized persons through facial recognition and triggers real-time door control.</p>
+          <p>The project combines Python and OpenCV with CNN-based feature extraction, face-recognition workflows and embedded hardware integration using ESP32-CAM.</p>
+          <div class="skill-line"><span>Python</span><span>OpenCV</span><span>CNN</span><span>ESP32-CAM</span><span>Embedded</span></div>
+        </div>
+      </article>
+    </section>
 
-<footer>
-  <span>© <span id="year"></span> Puppala Tejasri</span>
-  <span>Designed with curiosity & code.</span>
-</footer>
+    <section class="editorial-section" id="experience">
+      <div class="section-label">06 / EXPERIENCE</div>
+      <div class="two-col experience-head">
+        <h2>Practical<br><em>exposure.</em></h2>
+        <p class="body-copy">A four-week industrial internship that gave me direct exposure to electrical motor testing, maintenance practices and troubleshooting in a heavy-industry environment.</p>
+      </div>
+      <article class="experience-card">
+        <div class="experience-visual"><span>ERS</span><small>04 WEEKS</small><div class="motor-icon">M</div></div>
+        <div class="experience-copy">
+          <p class="small-label">INTERNSHIP · RINL — VIZAG STEEL PLANT</p>
+          <h3>Electrical Repair Shop (ERS) Internship</h3>
+          <p class="role">Topic: Testing of Electrical Motors in ERS</p>
+          <ul>
+            <li>Studied testing and maintenance procedures followed for industrial electrical motors.</li>
+            <li>Observed insulation-resistance testing and motor performance evaluation.</li>
+            <li>Learned practical troubleshooting and repair approaches used in electrical maintenance.</li>
+            <li>Gained exposure to maintenance work and safety-oriented practices in a heavy-industry setting.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
 
-<script src="script.js"></script>
+    <section class="editorial-section" id="certificates">
+      <div class="section-label">07 / CERTIFICATES &amp; ACHIEVEMENTS</div>
+      <h2 class="section-heading">Learning beyond<br><em>the classroom.</em></h2>
+      <div class="certificate-list">
+        <article><span>01</span><div><p class="small-label">WORKSHOP</p><h3>Next Generation Technology for Energy Sustainability and Climate Resilience</h3><p>Participated in an ANRF-funded workshop focused on sustainable energy systems, climate resilience and emerging electrical technologies.</p></div><b>↗</b></article>
+        <article><span>02</span><div><p class="small-label">INTERNSHIP</p><h3>Electrical Repair Shop (ERS) Internship</h3><p>Completed a four-week internship at Rashtriya Ispat Nigam Limited — Vizag Steel Plant.</p></div><b>↗</b></article>
+        <article><span>03</span><div><p class="small-label">ACHIEVEMENT</p><h3>Science Exhibition</h3><p>Co-organized a Science Exhibition conducted at the National Institute of Technology Nagaland.</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="editorial-section split-bottom" id="leadership">
+      <div class="section-label">08 / LEADERSHIP</div>
+      <div class="two-col">
+        <h2>Taking<br><em>responsibility.</em></h2>
+        <article class="leadership-feature"><p class="small-label">FORMER CLASS REPRESENTATIVE</p><h3>First 3 Semesters</h3><p>Served as a Class Representative during the first three semesters, helping coordinate academic communication between classmates and faculty while supporting a collaborative class environment.</p></article>
+      </div>
+    </section>
+
+    <section class="editorial-section languages" id="languages">
+      <div class="section-label">09 / LANGUAGES</div>
+      <div class="two-col">
+        <h2>Communication<br><em>across languages.</em></h2>
+        <div class="language-stack">
+          <div class="language-row"><span>English</span><b>Fluent</b></div>
+          <div class="language-row"><span>Telugu</span><b>Native</b></div>
+          <div class="language-row"><span>Hindi</span><b>Conversational</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="editorial-section hobbies" id="hobbies">
+      <div class="section-label">10 / HOBBIES &amp; INTERESTS</div>
+      <div class="two-col"><h2>Beyond<br><em>engineering.</em></h2><p class="body-copy">The things I enjoy outside academics help me slow down, stay curious and experience new perspectives.</p></div>
+      <div class="hobby-list">
+        <div><span class="hobby-icon">♪</span><small>01</small><h3>Listening to Music</h3><p>A simple way to relax, recharge and enjoy different moods.</p></div>
+        <div><span class="hobby-icon">◌</span><small>02</small><h3>Watching Dramas</h3><p>Enjoying stories, characters and different perspectives.</p></div>
+        <div><span class="hobby-icon">⌑</span><small>03</small><h3>Reading Books</h3><p>Making time for stories, ideas and continuous learning.</p></div>
+        <div><span class="hobby-icon">↗</span><small>04</small><h3>Travelling</h3><p>Exploring new places and experiencing something different.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-label light">11 / CONTACT</div>
+      <div class="contact-grid">
+        <div>
+          <h2>Have an<br><em>idea?</em></h2>
+          <p>Have a project, collaboration or opportunity in mind? Send a message and let’s connect.</p>
+          <div class="contact-links">
+            <a href="mailto:puppalatejasri2007@gmail.com"><span>Email</span><b>puppalatejasri2007@gmail.com ↗</b></a>
+            <a href="https://www.linkedin.com/in/tejasri-puppala-a9495b331" target="_blank" rel="noopener"><span>LinkedIn</span><b>tejasri-puppala ↗</b></a>
+            <a href="https://github.com/puppalatejasri2007" target="_blank" rel="noopener"><span>GitHub</span><b>puppalatejasri2007 ↗</b></a>
+          </div>
+        </div>
+        <form class="message-form" id="messageForm">
+          <label>Name<input name="name" type="text" placeholder="Your name" required></label>
+          <label>Email<input name="email" type="email" placeholder="your@email.com" required></label>
+          <label>Message<textarea name="message" rows="5" placeholder="Tell me a little about your idea..." required></textarea></label>
+          <button type="submit">Send message ↗</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>TEJASRI · PORTFOLIO</span><span>© 2026</span></footer>
+  <script src="script.js"></script>
 </body>
 </html>
