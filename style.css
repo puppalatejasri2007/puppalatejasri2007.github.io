@@ -29,7 +29,7 @@ nav{display:flex;gap:24px;font-size:.72rem;text-transform:uppercase;letter-spaci
 .education-item strong{display:inline-block;margin-top:14px;font-family:"Cormorant Garamond",serif;font-size:1.35rem;color:var(--rose);font-weight:500}
 .education-item.featured{background:rgba(255,255,255,.35);padding-left:18px;padding-right:18px;border-left:2px solid var(--rose)}
 .hobby-list>div{position:relative}
-.hobby-list .hobby-icon{display:block;font-family:"Cormorant Garamond",serif;font-size:1.8rem;color:var(--rose);font-style:normal}
+.hobby-list .hobby-icon{display:block;width:30px;height:30px;color:var(--rose);font-style:normal}.hobby-list .hobby-icon svg{width:100%;height:100%;display:block;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
 .hobby-list small{display:block;font-size:.6rem;letter-spacing:1px;color:#aaa29e;margin-top:6px}
 .hobby-list h3{margin-top:30px}
 .contact-grid{display:grid;grid-template-columns:1fr .8fr;gap:90px;align-items:start}
@@ -58,3 +58,6 @@ nav{display:flex;gap:24px;font-size:.72rem;text-transform:uppercase;letter-spaci
 .language-stack{max-width:620px;border-top:1px solid var(--line)}
 .languages .language-row{padding:22px 0;font-size:.9rem}
 @media(max-width:900px){.hero .intro + .intro{margin-top:16px}}
+
+/* About name highlight */
+.about-name{font-weight:600;color:var(--rose);font-family:"DM Sans",Arial,sans-serif;position:relative;white-space:nowrap}
